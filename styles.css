@@ -1,27 +1,28 @@
 body {
-  font-family: Arial, sans-serif;
+  gap: 16px;
   display: flex;
-  justify-content: center;
+  height: 100dvh;
   align-items: center;
-  height: 100vh;
-  flex-direction: column;
+  background: #3b245d;
+  justify-content: center;
 }
 
 .dropzone {
-  width: 200px;
-  height: 200px;
-  border: 2px dashed #ccc;
-  display: inline-block;
-  margin: 10px;
+  width: 100px;
+  height: 100px;
   padding: 10px;
-  vertical-align: top;
-  text-align: center;
+  border-radius: 8px;
+  border: 2px dashed #ffb2ec;
 }
 
 .draggable {
-  padding: 10px;
-  margin: 5px;
-  background: #f0f0f0;
-  border: 1px solid #ccc;
+  width: 100%;
+  height: 100%;
   cursor: grab;
+  border-radius: 8px;
+  background: #d9b9ff;
+}
+
+.draggable.dragging {
+  opacity: 0.5;
 }
