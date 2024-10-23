@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.dropzone {
+  width: 200px;
+  height: 200px;
+  border: 2px dashed #ccc;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  vertical-align: top;
+  text-align: center;
+}
+
+.draggable {
+  padding: 10px;
+  margin: 5px;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: grab;
+}
